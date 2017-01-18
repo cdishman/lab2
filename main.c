@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
 	int vLen = 0;
 	double *v1;
 	double *v2;
-	int dot1, dot2;
+	double dot1, dot2;
 	if ((argc <= 1)) { 
 		printf("Specify how many numbers in each vector as first command line argument\n");
 		return -1;
