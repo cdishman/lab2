@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
 	dot1 = dot(v1, v2, vLen);
 	dot2 = dot(v2, v1, vLen);
 
-	printf("The first dot product: %d should be the same as the second: %d, right?\n", dot1, dot2);
+	printf("The first dot product: %lf should be the same as the second: %lf, right?\n", dot1, dot2);
 
 	return 0;
 	}
